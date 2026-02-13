@@ -17,7 +17,7 @@ app.post("/calculate", (req, res) => {
     else if (lovePercent > 40)
         message = "You need to spend more time together 💞";
     else
-        message = "Sorry i can't say anything. Good will help you 😉";
+        message = "Sorry i can't say anything. God will help you 😉";
     setTimeout(() => {
         res.send(`
             <html>
